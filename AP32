@@ -1,3 +1,7 @@
 1.- Buscar la ocurrencia agujero en minúscula (puede ser que haya más cosas, como por ejemplo agujeros o 3agujeros...).
 grep -o '\<.*agujero.*\>' anillo.txt
 
+2.- Idem pero ignorando mayúsculas de minúsculas.
+grep -i -o '\<.*agujero.*\>' anillo.txt
+
+
