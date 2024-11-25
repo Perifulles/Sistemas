@@ -29,3 +29,5 @@ grep -i -A 1 '\bcompañía\b' anillo.txt
 
 
 10.- Líneas donde aparezca la palabra Gandalf y además también aparezca la palabra Gris.
+grep -i '\bGandalf\b' anillo.txt | grep -i '\bGris\b'
+
