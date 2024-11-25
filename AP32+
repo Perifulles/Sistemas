@@ -8,5 +8,6 @@ grep -i -o '\<.*agujero.*\>' anillo.txt
 grep -w '\banillo\b' anillo.txt
 
 4.- Las líneas, junto con su número, en las que no aparece la secuencia anillo (ni mayúscula, ni minúscula, ni anillos, etc.).
-grep -i -n -v '\banillo\b' anillo.txt
+
+5.- Las líneas que empiezan por Frodo.
 
