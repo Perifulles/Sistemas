@@ -4,4 +4,6 @@ grep -o '\<.*agujero.*\>' anillo.txt
 2.- Idem pero ignorando mayúsculas de minúsculas.
 grep -i -o '\<.*agujero.*\>' anillo.txt
 
+3.- La palabra "anillo" en minúscula y sin más letras (no vale ni anillos ni Anillo).
+grep -w '\banillo\b' anillo.txt
 
