@@ -7,3 +7,4 @@ grep -i -o '\<.*agujero.*\>' anillo.txt
 3.- La palabra "anillo" en minúscula y sin más letras (no vale ni anillos ni Anillo).
 grep -w '\banillo\b' anillo.txt
 
+4.- Las líneas, junto con su número, en las que no aparece la secuencia anillo (ni mayúscula, ni minúscula, ni anillos, etc.).
