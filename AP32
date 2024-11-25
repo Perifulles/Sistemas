@@ -18,6 +18,7 @@ grep 'Mordor$' anillo.txt
 
 
 7.- Quiero buscar las líneas que contienen las palabras fue y que, para ello buscaré lo que contenga algo y después las letras"ue".
+grep '.*fue.*que.*' anillo.txt
 
 8.- Las apariciones de la palabra elfo (solo esa palabra y en minúscula) junto con 2 líneas por encima.
 
