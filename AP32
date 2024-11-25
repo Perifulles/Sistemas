@@ -25,6 +25,7 @@ grep -B 2 -w '\belfo\b' anillo.txt
 
 
 9.- Las apariciones de compañía (da igual mayúscula que minúscula) y 1 línea por debajo.
+grep -i -A 1 '\bcompañía\b' anillo.txt
 
 
 10.- Líneas donde aparezca la palabra Gandalf y además también aparezca la palabra Gris.
