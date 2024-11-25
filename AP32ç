@@ -14,6 +14,7 @@ grep -i -n -v '\banillo\b' anillo.txt
 grep '^Frodo' anillo.txt
 
 6.- Las líneas que acaban por Mordor.
+grep 'Mordor$' anillo.txt
 
 7.- Quiero buscar las líneas que contienen las palabras fue y que, para ello buscaré lo que contenga algo y después las letras"ue".
 
