@@ -21,7 +21,10 @@ grep 'Mordor$' anillo.txt
 grep '.*fue.*que.*' anillo.txt
 
 8.- Las apariciones de la palabra elfo (solo esa palabra y en minúscula) junto con 2 líneas por encima.
+grep -B 2 -w '\belfo\b' anillo.txt
+
 
 9.- Las apariciones de compañía (da igual mayúscula que minúscula) y 1 línea por debajo.
+
 
 10.- Líneas donde aparezca la palabra Gandalf y además también aparezca la palabra Gris.
