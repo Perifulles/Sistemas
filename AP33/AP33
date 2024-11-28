@@ -1,0 +1,17 @@
+Ejer1:
+grep -B1 -A7 -i -E "Edificio|Semanas" consumos.txt > file1 
+
+Ejer2:
+grep -B1 -A7 -i -E "Edificio A" consumos.txt | grep -E "[0-9]" > a
+grep -B1 -A7 -i -E "Edificio D" consumos.txt | grep -E "[0-9]" > d
+grep -B1 -A7 -i -E "semana" consumos.txt | grep -E "[0-9]" > s
+
+Ejer3:
+touch file2
+grep -i "Total" totales.txt >> file2
+grep -i  "L.*M" consumos.txt >> file2
+grep -i "sem" totales.txt >> file2
+
+Ejer4:
+awk '{for (i=1; i<=NF; i++) if (($i + 0) >= 200) next; print $0}' file2
+#Menuda ida de olla el fking awk
