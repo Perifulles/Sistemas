@@ -3,3 +3,5 @@
 2. grep -civ "quijote"
 
 3. grep -cri "quijote"
+
+4. grep -cri "quijote" | grep -v ":0"
