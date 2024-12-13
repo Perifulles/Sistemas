@@ -7,3 +7,5 @@
 4. grep -cri "quijote" | grep -v ":0"
 
 5. sed -i 's/panza/barriga/g' el_quijote2.txt
+
+6. sed -i 's/panza/barriga/gi' el_quijote2.txt
