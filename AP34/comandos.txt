@@ -13,3 +13,5 @@
 7. head -c 4 el_quijote
 
 8. head -c 4k el_quijote
+
+9. head -n 25 el_quijote.txt | tail -n +11 
