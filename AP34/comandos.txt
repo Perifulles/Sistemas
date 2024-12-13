@@ -1,3 +1,5 @@
 1. grep -ci "quijote"
 
 2. grep -civ "quijote"
+
+3. grep -cri "quijote"
