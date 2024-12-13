@@ -5,3 +5,5 @@
 3. grep -cri "quijote"
 
 4. grep -cri "quijote" | grep -v ":0"
+
+5. sed -i 's/panza/barriga/g' el_quijote2.txt
