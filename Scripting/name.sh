@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 read -p "Introduce tu nombre" name;
 
