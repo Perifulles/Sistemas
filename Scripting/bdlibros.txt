@@ -13,3 +13,13 @@ Año de salida: 2025
 Editorial: David Evils Editorial
 Genero: Terror
 
+Titulo: Palomas
+Año de salida: 2025
+Editorial: Florida
+Genero: Sexo
+
+Titulo: Spiderman
+Año de salida: 2009
+Editorial: Disney
+Genero: Aventuras
+
